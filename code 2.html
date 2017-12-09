@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>coder</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style3.css">
+<body>
+<header> 
+<p class="hed">Insurance Company</p>
+
+</header>
+<form name="Input">
+<section>
+<div class="in">
+<span>Your name:</span>
+ <input type="text" name="your name">
+</div>
+
+<div class="in">
+<span>Age: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>
+ <input type="text" name="age">
+</div>
+
+<div class="in">
+<span>Country:   &nbsp; &nbsp; &nbsp; &nbsp; </span>
+ <input type="text" name="country">
+</div>
+
+<div class="in">
+<span>Horsepower:</span>
+ <input type="text" name="Horsepower">
+</div>
+<div class="in">
+	<button class="cal" onClick="return calculateInsurance()">Calculate</button>
+	
+</div>
+
+</section>
+</form>
+
+	<footer>
+	<p id="ronaldo">printed caluclation goes here</p>
+</footer>
+
+
+<script>
+	function calculateInsurance() {
+	var name = "John Doe" ;
+	var age = 20 ;
+	var country = "Austria" ;
+	var horse_power = 150 ;
+	var insurance= horse_power * 100 / age + 150 ;
+	var price = Math.floor(insurance) ;
+	document.getElementById("ronaldo").innerHTML= price;
+	return false ;
+}
+</script>
+
+
+
+</body>
+</html>

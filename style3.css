@@ -1,0 +1,84 @@
+sheader {
+	padding-left: 0%;
+    background-color: #f4f4f4;
+    height: 10%;
+    width: auto;
+    overflow: overlay;
+
+
+}
+
+.hed {
+    text-align: center;
+    color: #E65100;
+    font-size: 42px;
+    font-variant: slashed-zero;
+    font-style: oblique;
+    font-family: sans-serif;
+    text-shadow: 5px 3px 2px #555555;
+
+}
+
+
+
+.in {
+    padding: 1%;
+    text-align: center;
+    margin: 1%;
+    font-size: 25px;
+
+}
+
+span{
+	padding: 1%;
+    font-style: oblique;
+    float: none;
+    margin: auto;
+    color: white;
+    font-family: Papyrus;
+}
+
+section {
+	background-color: #406a80;
+	 padding: 1%;
+}
+
+input {
+
+    border-radius: 40px;
+    height: 40px;
+    padding: 0px 5px;
+    font-size: 13px;
+     
+}
+
+.cal {
+	    padding: 0%;
+    text-align: center;
+    margin: 0%;
+    font-size: 22px;
+
+}
+
+footer {
+padding-left: 0%;
+    background-color: #f4f4f4;
+    height: 10%;
+    width: auto;
+        padding: 1%;
+
+}
+
+
+
+#ronaldo{
+
+	text-align: center;
+    color: #263238;
+    font-size: 26px;
+    text-shadow: 5px 3px 2px #555555;
+ 	font-style: italic;
+    font-family: Bradley Hand ITC;
+    
+}
+
